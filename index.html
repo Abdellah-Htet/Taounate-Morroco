@@ -1,0 +1,883 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Taounate - Tourism Guide</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600&family=Noto+Sans+Tifinagh&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar navbar-expand-md navbar-light fixed-top custom-navbar">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold text-moroccan-green" href="#">
+            <i class="fas fa-mountain me-2"></i>Taounate
+        </a>
+
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarMenu">
+
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+
+            <ul class="navbar-nav ms-auto gap-md-4">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#description">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#locations">Locations</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#map">Map</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#video">Video</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero-section d-flex align-items-center justify-content-center text-center">
+
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+
+        <h1 class="display-1 fw-bold text-white mb-4 fade-in-up">
+            Discover <span class="text-success">Taounate</span>
+        </h1>
+
+        <p class="fs-3 text-white arabic-text fade-in-up">
+            تاونات
+        </p>
+
+        <p class="fs-5 text-white tifinagh-text fade-in-up">
+            ⵜⴰⵡⵏⴰⵜ
+        </p>
+
+        <p class="lead text-white mb-5 fade-in-up">
+            The Pearl of the Rif Mountains
+        </p>
+
+        <a href="#description" class="btn btn-success btn-lg rounded-pill px-5 py-3 btn-shine fade-in-up">
+            Explore Taounate
+            <i class="fas fa-arrow-down ms-2"></i>
+        </a>
+
+    </div>
+</section>
+
+
+<!-- ================= DESCRIPTION ================= -->
+
+<section id="description" class="section-padding">
+
+    <div class="container">
+
+        <div class="text-center mb-5 reveal">
+
+            <span class="text-moroccan-green fw-semibold text-uppercase">
+                About Taounate
+            </span>
+
+            <h2 class="display-5 fw-bold mt-2">
+                <span class="gradient-text">Taounate</span> Province
+            </h2>
+
+            <div class="section-line"></div>
+
+        </div>
+
+
+        <div class="card description-card border-0 shadow-lg rounded-4 reveal">
+
+            <div class="card-body p-4 p-md-5">
+
+                <!-- Introduction -->
+
+                <div class="mb-5">
+
+                    <div class="d-flex align-items-center mb-3">
+
+                        <div class="icon-circle me-3">
+                            <i class="fas fa-landmark"></i>
+                        </div>
+
+                        <h3 class="h3 fw-bold mb-0">Introduction</h3>
+
+                    </div>
+
+                    <p class="text-secondary fs-5 lh-lg">
+
+                        <strong>Taounate</strong>
+                        <span class="arabic-text text-moroccan-green">(تاونات)</span>
+                        <span class="tifinagh-text text-moroccan-green">(ⵜⴰⵡⵏⴰⵜ)</span>
+
+                        is a city located in northern Morocco, about
+                        <strong class="text-moroccan-green">80 km from Fès</strong>.
+
+                        It is known for its mountains, natural landscapes,
+                        and water resources. It became the capital of the
+                        Taounate Province in <strong>1977</strong> and belongs
+                        to the Fès-Meknès region.
+
+                    </p>
+
+                </div>
+
+
+                <!-- Culture -->
+
+                <div class="mb-5">
+
+                    <div class="d-flex align-items-center mb-3">
+
+                        <div class="icon-circle mountain-bg me-3">
+                            <i class="fas fa-users"></i>
+                        </div>
+
+                        <h3 class="h3 fw-bold mb-0">Culture and Society</h3>
+
+                    </div>
+
+                    <p class="text-secondary fs-5 lh-lg">
+
+                        Taounate is part of the
+                        <strong class="text-moroccan-green">Jbala region</strong>,
+                        a mountainous area in northern Morocco.
+
+                        The Jbala people are known as mountain inhabitants.
+                        Their dialect is influenced by the Idrissid era and
+                        reflects a rich cultural heritage dating back to
+                        the 11th century.
+
+                    </p>
+
+                </div>
+
+
+                <!-- Crafts and Water Resources -->
+
+                <div class="row g-4">
+
+                    <div class="col-md-6">
+
+                        <div class="info-box crafts-box h-100">
+
+                            <div class="d-flex align-items-center mb-4">
+
+                                <i class="fas fa-hand-sparkles text-warning fs-2 me-3"></i>
+
+                                <h4 class="fw-bold mb-0">Traditional Crafts</h4>
+
+                            </div>
+
+                            <ul class="list-unstyled info-list">
+
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    <strong>Weaving</strong> in Oulad Azam
+                                </li>
+
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    <strong>Basket weaving</strong> in Moulay Bouchta El Khammar
+                                </li>
+
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    <strong>Woodwork</strong> in Bni Oulid
+                                </li>
+
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    <strong>Pottery</strong> in Aslas
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-md-6">
+
+                        <div class="info-box water-box h-100">
+
+                            <div class="d-flex align-items-center mb-4">
+
+                                <i class="fas fa-water text-primary fs-2 me-3"></i>
+
+                                <h4 class="fw-bold mb-0">Hydrological Resources</h4>
+
+                            </div>
+
+                            <ul class="list-unstyled info-list">
+
+                                <li>
+                                    <i class="fas fa-dam"></i>
+                                    <strong>Idriss 1st Dam</strong> (34°07′N, 4°40′O)
+                                </li>
+
+                                <li>
+                                    <i class="fas fa-water"></i>
+                                    <strong>Oued Asra River</strong>
+                                </li>
+
+                                <li>
+                                    <i class="fas fa-dam"></i>
+                                    <strong>Al Wahda Dam</strong>
+                                </li>
+
+                                <li>
+                                    <i class="fas fa-dam"></i>
+                                    <strong>Asfalou Dam</strong>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ================= LOCATIONS ================= -->
+
+<section id="locations" class="section-padding bg-white">
+
+    <div class="container">
+
+        <div class="text-center mb-5 reveal">
+
+            <span class="text-moroccan-green fw-semibold text-uppercase">
+                Must Visit
+            </span>
+
+            <h2 class="display-5 fw-bold mt-2 mb-3">
+                <i class="fas fa-map-marker-alt text-danger me-2"></i>
+                Key Locations
+            </h2>
+
+            <p class="text-secondary fs-5">
+                Explore the most beautiful destinations in Taounate Province
+            </p>
+
+            <div class="section-line"></div>
+
+        </div>
+
+
+        <div class="row g-4">
+
+            <!-- Card 1 -->
+
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 reveal">
+
+                <div class="card location-card h-100 border-0 shadow">
+
+                    <div class="location-image">
+                        <img src="image/images.jpeg" alt="Bouadel Waterfalls">
+                    </div>
+
+                    <div class="card-body p-4">
+
+                        <h3 class="h5 fw-bold">Bouadel Waterfalls</h3>
+
+                        <p class="text-secondary small">
+                            A natural waterfall surrounded by lush green
+                            landscapes and fresh mountain air.
+                        </p>
+
+                        <button class="btn btn-success w-100">
+                            View More <i class="fas fa-arrow-right ms-1"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Card 2 -->
+
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 reveal">
+
+                <div class="card location-card h-100 border-0 shadow">
+
+                    <div class="location-image">
+                        <img src="image/WhatsApp Image 2026-04-30 at 23.30.07.jpeg" alt="Sad Sahla">
+                    </div>
+
+                    <div class="card-body p-4">
+
+                        <h3 class="h5 fw-bold">Sad Sahla</h3>
+
+                        <p class="text-secondary small">
+                            Majestic mountain ranges offering breathtaking
+                            panoramic views.
+                        </p>
+
+                        <button class="btn btn-success w-100">
+                            View More <i class="fas fa-arrow-right ms-1"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Card 3 -->
+
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 reveal">
+
+                <div class="card location-card h-100 border-0 shadow">
+
+                    <div class="location-image">
+                        <img src="image/WhatsApp Image 2026-04-30 at 23.29.17.jpeg" alt="Al Wahda Dam">
+                    </div>
+
+                    <div class="card-body p-4">
+
+                        <h3 class="h5 fw-bold">Al Wahda Dam</h3>
+
+                        <p class="text-secondary small">
+                            Discover the natural beauty of the region and
+                            its impressive water resources.
+                        </p>
+
+                        <button class="btn btn-success w-100">
+                            View More <i class="fas fa-arrow-right ms-1"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Card 4 -->
+
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 reveal">
+
+                <div class="card location-card h-100 border-0 shadow">
+
+                    <div class="location-image">
+                        <img src="image/images (1).jpeg" alt="Qalat Amarkou">
+                    </div>
+
+                    <div class="card-body p-4">
+
+                        <h3 class="h5 fw-bold">Qalat Amarkou</h3>
+
+                        <p class="text-secondary small">
+                            A historical and cultural site reflecting
+                            the heritage of Taounate.
+                        </p>
+
+                        <button class="btn btn-success w-100">
+                            View More <i class="fas fa-arrow-right ms-1"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Card 5 -->
+
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 reveal">
+
+                <div class="card location-card h-100 border-0 shadow">
+
+                    <div class="location-image">
+                        <img src="image/images (3).jpeg" alt="Montazah Yafran">
+                    </div>
+
+                    <div class="card-body p-4">
+
+                        <h3 class="h5 fw-bold">Montazah Yafran</h3>
+
+                        <p class="text-secondary small">
+                            A peaceful park area ideal for relaxation
+                            and family visits.
+                        </p>
+
+                        <button class="btn btn-success w-100">
+                            View More <i class="fas fa-arrow-right ms-1"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Card 6 -->
+
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 reveal">
+
+                <div class="card location-card h-100 border-0 shadow">
+
+                    <div class="location-image">
+                        <img src="image/images (5).jpeg" alt="Old Medina">
+                    </div>
+
+                    <div class="card-body p-4">
+
+                        <h3 class="h5 fw-bold">Taounate Old Medina</h3>
+
+                        <p class="text-secondary small">
+                            Traditional Moroccan streets full of
+                            culture and history.
+                        </p>
+
+                        <button class="btn btn-success w-100">
+                            View More <i class="fas fa-arrow-right ms-1"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Card 7 -->
+
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 reveal">
+
+                <div class="card location-card h-100 border-0 shadow">
+
+                    <div class="location-image">
+                        <img src="image/images (4).jpeg" alt="City Center">
+                    </div>
+
+                    <div class="card-body p-4">
+
+                        <h3 class="h5 fw-bold">Taounate City Center</h3>
+
+                        <p class="text-secondary small">
+                            The heart of the city with markets
+                            and daily life activities.
+                        </p>
+
+                        <button class="btn btn-success w-100">
+                            View More <i class="fas fa-arrow-right ms-1"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Card 8 -->
+
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-3 reveal">
+
+                <div class="card location-card h-100 border-0 shadow">
+
+                    <div class="location-image">
+                        <img src="image/WhatsApp Image 2026-05-01 at 00.15.59.jpeg" alt="Panoramic Viewpoints">
+                    </div>
+
+                    <div class="card-body p-4">
+
+                        <h3 class="h5 fw-bold">Panoramic Viewpoints</h3>
+
+                        <p class="text-secondary small">
+                            Elevated spots offering stunning sunset
+                            and mountain views.
+                        </p>
+
+                        <button class="btn btn-success w-100">
+                            View More <i class="fas fa-arrow-right ms-1"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ================= MAP ================= -->
+
+<section id="map" class="section-padding bg-light">
+
+    <div class="container">
+
+        <div class="text-center mb-5 reveal">
+
+            <span class="text-moroccan-green fw-semibold text-uppercase">
+                Navigation
+            </span>
+
+            <h2 class="display-5 fw-bold mt-2">
+                <i class="fas fa-map text-danger me-2"></i>
+                Explore Taounate Map
+            </h2>
+
+            <p class="text-secondary fs-5 mt-3">
+                Find your way around Taounate and discover all the key locations
+            </p>
+
+            <div class="section-line"></div>
+
+        </div>
+
+
+        <div class="row g-4 reveal">
+
+            <!-- Google Maps -->
+
+            <div class="col-lg-8">
+
+                <div class="card border-0 shadow-lg overflow-hidden h-100">
+
+                    <div class="card-header bg-success text-white p-3">
+                        <h5 class="mb-0">
+                            <i class="fas fa-map-marked-alt me-2"></i>
+                            Google Maps
+                        </h5>
+                    </div>
+
+                    <iframe
+                        src="https://www.google.com/maps?q=Taounate%20Morocco&output=embed"
+                        width="100%"
+                        height="450"
+                        style="border:0;"
+                        allowfullscreen
+                        loading="lazy">
+                    </iframe>
+
+                </div>
+            </div>
+
+
+            <!-- Location List -->
+
+            <div class="col-lg-4">
+
+                <div class="card border-0 shadow-lg h-100">
+
+                    <div class="card-body p-4">
+
+                        <h4 class="fw-bold mb-4">
+                            <i class="fas fa-list-ul text-success me-2"></i>
+                            Key Locations
+                        </h4>
+
+                        <div class="location-item">
+                            <span class="number">1</span>
+                            <div>
+                                <h6 class="fw-bold mb-1">Bouadel Waterfalls</h6>
+                                <small class="text-secondary">Natural Attraction</small>
+                            </div>
+                        </div>
+
+                        <div class="location-item">
+                            <span class="number">2</span>
+                            <div>
+                                <h6 class="fw-bold mb-1">Rif Mountains</h6>
+                                <small class="text-secondary">Mountain Range</small>
+                            </div>
+                        </div>
+
+                        <div class="location-item">
+                            <span class="number">3</span>
+                            <div>
+                                <h6 class="fw-bold mb-1">Green Valleys</h6>
+                                <small class="text-secondary">Natural Landscape</small>
+                            </div>
+                        </div>
+
+                        <div class="location-item">
+                            <span class="number">4</span>
+                            <div>
+                                <h6 class="fw-bold mb-1">Qalat Amarkou</h6>
+                                <small class="text-secondary">Historical Site</small>
+                            </div>
+                        </div>
+
+                        <div class="location-item">
+                            <span class="number">5</span>
+                            <div>
+                                <h6 class="fw-bold mb-1">Montazah Yafran</h6>
+                                <small class="text-secondary">Park & Garden</small>
+                            </div>
+                        </div>
+
+                        <div class="location-item">
+                            <span class="number">6</span>
+                            <div>
+                                <h6 class="fw-bold mb-1">Taounate Old Medina</h6>
+                                <small class="text-secondary">Cultural Heritage</small>
+                            </div>
+                        </div>
+
+                        <div class="location-item">
+                            <span class="number">7</span>
+                            <div>
+                                <h6 class="fw-bold mb-1">Taounate City Center</h6>
+                                <small class="text-secondary">Urban Area</small>
+                            </div>
+                        </div>
+
+                        <div class="location-item">
+                            <span class="number">8</span>
+                            <div>
+                                <h6 class="fw-bold mb-1">Panoramic Viewpoints</h6>
+                                <small class="text-secondary">Scenic Spots</small>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ================= VIDEO ================= -->
+
+<section id="video" class="section-padding video-section">
+
+    <div class="container">
+
+        <div class="text-center mb-5 reveal">
+
+            <span class="text-white-50 fw-semibold text-uppercase">
+                Visual Experience
+            </span>
+
+            <h2 class="display-5 fw-bold text-white mt-2">
+                <i class="fas fa-video me-2"></i>
+                Discover Taounate in Video
+            </h2>
+
+            <p class="text-white fs-5 mt-3">
+                Watch the beauty of Taounate unfold before your eyes
+            </p>
+
+            <div class="section-line bg-white"></div>
+
+        </div>
+
+
+        <div class="row g-5 align-items-center reveal">
+
+            <!-- Video -->
+
+            <div class="col-lg-6">
+
+                <div class="ratio ratio-16x9 rounded-4 overflow-hidden shadow-lg">
+
+                    <video controls>
+                        <source src="image/WhatsApp Video 2026-04-30 at 23.08.17.mp4" type="video/mp4">
+                        Your browser does not support video.
+                    </video>
+
+                </div>
+
+            </div>
+
+
+            <!-- Video Information -->
+
+            <div class="col-lg-6 text-white">
+
+                <h3 class="display-6 fw-bold mb-4">
+                    Experience the Magic of Taounate
+                </h3>
+
+                <p class="lead text-white-50 mb-4">
+                    Immerse yourself in the stunning landscapes of Taounate.
+                    From the cascading Bouadel Waterfalls to the majestic
+                    Rif Mountains, this video showcases the natural beauty
+                    and cultural richness of this Moroccan gem.
+                </p>
+
+
+                <div class="video-feature">
+                    <i class="fas fa-mountain"></i>
+                    <div>
+                        <h5>Rif Mountains Landscapes</h5>
+                        <p>Breathtaking panoramic views of the mountain ranges</p>
+                    </div>
+                </div>
+
+                <div class="video-feature">
+                    <i class="fas fa-water"></i>
+                    <div>
+                        <h5>Waterfalls & Rivers</h5>
+                        <p>Discover the natural water resources of the region</p>
+                    </div>
+                </div>
+
+                <div class="video-feature">
+                    <i class="fas fa-home"></i>
+                    <div>
+                        <h5>Rural Jbala Lifestyle</h5>
+                        <p>Experience the authentic culture of the mountain people</p>
+                    </div>
+                </div>
+
+                <div class="video-feature">
+                    <i class="fas fa-dam"></i>
+                    <div>
+                        <h5>Idriss 1st Dam</h5>
+                        <p>Discover one of Morocco's important water reserves</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer-section">
+
+    <div class="container">
+
+        <div class="row g-4">
+
+            <div class="col-md-6">
+
+                <h3 class="fw-bold mb-4">
+                    <i class="fas fa-mountain text-success me-2"></i>
+                    Taounate
+                </h3>
+
+                <p class="text-white-50">
+                    Discover the beauty of Taounate, the pearl of the Rif Mountains.
+                    Experience rich culture, stunning landscapes, and warm hospitality.
+                </p>
+
+                <div class="social-links">
+
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-3">
+
+                <h5 class="fw-bold mb-4">Quick Links</h5>
+
+                <ul class="list-unstyled footer-links">
+
+                    <li><a href="#description">About Taounate</a></li>
+                    <li><a href="#locations">Key Locations</a></li>
+                    <li><a href="#map">Map</a></li>
+                    <li><a href="#video">Video</a></li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="col-md-3">
+
+                <h5 class="fw-bold mb-4">Contact</h5>
+
+                <ul class="list-unstyled text-white-50">
+
+                    <li class="mb-3">
+                        <i class="fas fa-map-marker-alt text-success me-2"></i>
+                        Taounate, Morocco
+                    </li>
+
+                    <li class="mb-3">
+                        <i class="fas fa-envelope text-success me-2"></i>
+                        <a href="Abdellahhtet177@gamil.com">Abdellahhtet177@gamil.com</a>
+                    </li>
+
+                    <li>
+                        <i class="fas fa-phone text-success me-2"></i>
+                        +212 613088689
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+        <div class="border-top border-secondary mt-5 pt-4 text-center text-white-50">
+
+            <p>
+                &copy; 2026 Taounate Tourism. All rights reserved.
+                Made with <i class="fas fa-heart text-danger"></i> for Morocco
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- Scroll To Top -->
+
+<a href="#" id="scrollTop">
+    <i class="fas fa-arrow-up"></i>
+</a>
+
+
+<!-- Bootstrap JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom JS -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
